@@ -754,9 +754,30 @@ body.nav-opened .nav {
 /* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
-    float: left;
-    background: none !important; /* Makes sure there is never a background */
-    border: none !important; /* Makes sure there is never a border */
+    float: left !important;
+    border-color: #BFC8CD;
+    color: #9EABB3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    padding: 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 1;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+
+.blog-logo.icon-menu:before {
+    content: '';
+    margin-right: initial;
 }
 
 .blog-logo img {
