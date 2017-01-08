@@ -888,9 +888,9 @@ body.nav-opened .nav {
     position: relative;
     top: 1px;
 }
-.menu-button:hover {
+/*.menu-button:hover {
     background: #fff;
-}
+}*/
 .menu-button:focus {
     outline: 0;
 }
@@ -909,10 +909,10 @@ body.nav-opened .nav {
     border-color: #BFC8CD;
     color: #9EABB3;
 }
-.nav-closed .no-cover .menu-button:hover {
+/*.nav-closed .no-cover .menu-button:hover {
     border-color: #555;
     color: #555;
-}
+}*/
 
 /* When the navigation is opened */
 .nav-opened .menu-button {
