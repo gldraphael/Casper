@@ -2192,10 +2192,10 @@ body.page-template .post-title {
    ========================================================================== */
 body {
     background-color: #393E41;
-    border-top: 8px solid #393e41;
 }
 .site-wrapper {
     border-bottom: 8px solid #393e41;
+    border-top: 8px solid #393e41;
 }
 .no-cover.main-header {
     background-color: #393e41;
