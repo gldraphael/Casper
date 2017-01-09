@@ -2206,6 +2206,21 @@ div.nav, h3.nav-title {
     padding-top: 8px
 }
 
+.post-meta {
+    margin: 0 0 1.75rem 0;
+}
+
+.post-date {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.date-tag-divider {
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+}
+
 /* ==========================================================================
    14. Animations
    ========================================================================== */
