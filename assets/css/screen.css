@@ -888,10 +888,13 @@ body.nav-opened .nav {
     position: relative;
     top: 1px;
 }
-/*.menu-button:hover {
-    background: #fff;
-}*/
-.menu-button:focus {
+.blog-logo:hover, .menu-button:hover {
+    color: #fff !important;
+}
+.blog-logo.light-background:hover {
+    color: #9EABB3;
+}
+.blog-logo:focus, .menu-button:focus {
     outline: 0;
 }
 
@@ -1780,10 +1783,6 @@ body.page-template .post-title {
         padding: 10% 0;
     }
 
-    .blog-logo img {
-        padding: 4px 0;
-    }
-
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
@@ -1932,27 +1931,20 @@ body.page-template .post-title {
         margin-bottom: 2rem;
     }
 
-    .blog-logo {
-        padding: 5px;
-    }
-
-    .blog-logo img {
-        height: 30px;
-    }
-
-    .menu-button {
+    .blog-logo .menu-button {
         padding: 0 5px;
         border-radius: 0;
         border-width: 0;
+        border-color: transparent;
         color: #2e2e2e;
         background: transparent;
     }
-    .menu-button:hover {
+    .blog-logo:hover, .menu-button:hover {
         color: #2e2e2e;
         border-color: transparent;
         background: none;
     }
-    body.nav-opened .menu-button {
+    body.nav-opened .blog-logo, body.nav-opened .menu-button {
         background: none;
         border: transparent;
     }
@@ -1966,11 +1958,11 @@ body.page-template .post-title {
     .no-cover .main-nav.overlay {
         background: none;
     }
-    .no-cover .main-nav.overlay .menu-button {
+    .no-cover .main-nav.overlay .menu-button, .no-cover .main-nav.overlay .blog-logo {
         border: none;
     }
 
-    .main-nav.overlay .menu-button {
+    .main-nav.overlay .menu-button, .main-nav.overlay .blog-logo {
         border-color: transparent;
     }
 
