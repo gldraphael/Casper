@@ -2206,8 +2206,11 @@ div.nav, h3.nav-title {
     padding-top: 8px
 }
 
+h2.post-title {
+    margin-bottom: 0.5rem;
+}
 .post-meta {
-    margin: 0 0 1.75rem 0;
+    margin: 0 0 1.6rem 0;
 }
 
 .post-date {
