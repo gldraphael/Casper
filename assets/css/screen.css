@@ -2182,6 +2182,9 @@ body.page-template .post-title {
 /* ==========================================================================
    XX. Custom Styles
    ========================================================================== */
+.monotype {
+    font-family: 'Inconsolata'
+}
 body {
     background-color: #393E41;
 }
@@ -2196,8 +2199,11 @@ body {
     color: #f6f7eb;
 }
 
-.monotype {
-    font-family: 'Inconsolata'
+.nav li a {
+    font-size: 1.6rem;
+}
+div.nav, h3.nav-title {
+    padding-top: 8px
 }
 
 /* ==========================================================================
