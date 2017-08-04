@@ -7,7 +7,7 @@
         "ghost": "^1.0.0"
     },
     "config": {
-        "posts_per_page": 3
+        "posts_per_page": 15
     },
     "license": "MIT",
     "screenshots": {
